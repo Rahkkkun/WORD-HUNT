@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 35vh;
+  width: 100%;
+}
+
+.title {
+  font-size: 9rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: inherit;
+  font-family: "Inter", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 900px) {
+  .header {
+    justify-content: space-evenly;
+    height: 25vh;
+  }
+  .title {
+    font-size: 11vw;
+  }
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search {
+  width: 58%;
+}
+
+.select {
+  width: 30%;
+}
